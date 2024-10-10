@@ -1,0 +1,15 @@
+2  -la fct main() est la premiere application qui se lance lors du demarrage 
+    - elle initialise les widget de l'application
+    - Materialapp est un widget qui represente le point de depart 
+    - home est le widget princicipal qui sera affiche au depart
+
+3   -elle herite de la classe statfulwidget car l'etat de ce widget change aux cours d'execution 
+    -createstate() sert a creer une instance de la classe associee
+    - pour separer la gestion de widget et son etat
+    -la fct build() est appelee a chaque fois l'etat du widget change et renvoie ce qu'il faut afficher
+
+4   -la commande sert a ajouter la bibliotheques UUID qui permet de gerer les identifiants uniques 
+    -les variables sont final car les ils ne peuvent etre assignees qu'une seule fois 
+
+5   -la fleche sert a ecrire d'une maniere concise les fonctions en une seule expression
+    -
